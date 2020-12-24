@@ -1,0 +1,194 @@
+body{
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+article h1{
+    color: #42291e;
+    text-align: center;
+    text-shadow: 2px 2px gray;
+}
+header{
+    z-index: 2;
+    height: 70px;
+    background-color: #42291e;
+    margin: 0;
+}
+.a{
+    position: absolute;
+    left: 20px;
+}
+h1{
+    text-shadow: 2px 2px gray;
+    font-size: 40px;
+
+}
+header a{
+    margin-top: 20px;
+    float: left;
+    font-size:25px;
+    color: white;
+    margin-right:30px;
+    text-decoration:none;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head img{
+    width: 200px;
+}
+nav{
+    float: right;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left:2px solid #42291e
+}
+nav h1{
+    text-align: center;
+    font-size: 40px;
+    color: #42291e;
+    text-shadow: 2px 2px gray;
+
+}
+nav .cup{
+    position: absolute;
+    right: 100px;
+    top: 1000px;
+}
+nav img{
+    justify-content: center;
+    width:200px
+}
+nav .card{
+    margin-top: 50px;
+}
+article{
+    direction: ltr;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+.botto{
+    width: 70%;
+    padding: 50px;
+    margin: 50px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    direction: rtl;
+    font-family: 'Harmattan', sans-serif;
+    align-items: stretch;
+}
+.botto p{
+    font-size: 20px;
+    line-height: 30px;
+}
+.card_talk1{
+    height: 100%;
+    border: 2px solid #3f2a14;
+    box-shadow: 0 5px 10px  #3f2a14;
+    font-size: 15px;
+    justify-content: space-between;
+    margin: 30px;
+    background-color: white;
+    border-radius: 10px;
+    width: 20%;
+    color: black;
+    padding: 20px;
+    transition: ease-in-out all 1s;
+}
+.card_talk1 img{
+    border-radius: 50%;
+    width: 60px;
+}
+.card_talk2{
+    height: 100%;
+    border: 2px solid #3f2a14;
+    box-shadow: 0 5px 10px  #3f2a14;
+    font-size: 15px;
+    justify-content: space-between;
+    margin: 30px;
+    background-color: white;
+    border-radius: 10px;
+    width: 20%;
+    color: black;
+    padding: 20px;
+    transition: ease-in-out all 1s;
+}
+.card_talk3{
+    height: 100%;
+    border: 2px solid #3f2a14;
+    box-shadow: 0 5px 10px  #3f2a14;
+    font-size: 15px;
+    justify-content: space-between;
+    margin: 30px;
+    background-color: white;
+    border-radius: 10px;
+    width: 20%;
+    color: black;
+    padding: 20px;
+    transition: ease-in-out all 1s;
+}
+.card_talk4{
+    height: 100%;
+    border: 2px solid #3f2a14;
+    box-shadow: 0 5px 10px  #3f2a14;
+    font-size: 15px;
+    justify-content: space-between;
+    margin: 30px;
+    background-color: white;
+    border-radius: 10px;
+    width: 40%;
+    color: black;
+    padding: 20px;
+    transition: ease-in-out all 1s;
+}
+.card_talk3 img{
+    border-radius: 50%;
+    width: 60px;
+}
+.card_talk2 img{
+    border-radius: 50%;
+    width:60px
+}
+.loctaion{
+    text-align: center;
+    padding-bottom: 200px;
+    border-bottom: 3px solid darkorange;
+}
+.loctaion h1{
+    text-align: center;
+}
+iframe{
+    margin-top: 30px;
+    padding: 40px;
+}
+footer h1{
+    text-align: center;
+    margin-top: 200px;
+    color:  #3f2a14;
+    font-family: 'Playball', cursive;
+}
+
+footer a{
+    padding: 20px;
+    float: right;
+    transform: translateY(20px);
+}
+.img1{
+    transition: 1.2s all ease-in-out;
+}
+footer .img{
+    width: 200px;
+    transform: translatex(100px);
+    float: left;
+}
+.img1:hover{
+    transform: scale(1.4,1.4);
+}

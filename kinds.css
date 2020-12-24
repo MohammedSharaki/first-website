@@ -1,0 +1,124 @@
+تغيير الخط واللون والالوان
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+body{
+    margin: 0;
+    transition: all 1s ease;
+    direction: rtl;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+h1{
+    font-family: 'Playball', cursive;
+    font-size: 70px;
+}
+header{
+    z-index: 2;
+    height: 70px;
+    background-color: #42291e;
+    margin: 0;
+}
+header a{
+    margin-top: 20px;
+    float: left;
+    font-size:25px;
+    color: white;
+    margin-right:30px;
+    text-decoration:none;
+}
+.a{
+    position: absolute;
+    left: 20px;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head img{
+    width: 200px;
+}
+
+nav{
+    float: right;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left:3px solid #42291e
+}
+nav h1{
+    text-align: center;
+    font-size: 40px;
+    color: #42291e;
+    text-shadow: 3px 3px gray;
+}
+nav .card{
+    margin-top: 50px;
+    width: 200px;
+}
+article{
+    width: 70%;
+    padding: 60px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+article .card{
+    width: 300px;
+    height:100%;
+    position: relative;
+    justify-content: space-around;
+    margin: 10px;
+    margin-top: 0px;
+
+}
+article .card h1 p{
+    text-align: center;
+    visibility: hidden;
+}
+.h1,.h2{
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    background: rgba(38, 132, 187, 0.42);
+    color: #fff;
+    transition: 1s all linear;
+}
+.card img{
+    transition: all ease-in-out 1.3s;
+}
+.card{
+    overflow: hidden;
+}
+.card:hover img{
+    transform:scale(1.2,1.2 );
+}
+.card:hover .h1 ,img{
+    visibility: visible;
+    opacity: 2;
+    z-index: 3;
+}
+.logo_name{
+    font-family: 'Playball', cursive;;
+    float: right;
+    font-size: 25px;
+    color: orange;
+    margin-right: 50px;
+}
+.cup{
+    position: absolute;
+    left: 10px;
+    top: 200px;
+}
