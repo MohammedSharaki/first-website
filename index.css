@@ -48,14 +48,16 @@ header{
     display: block;
   }
   
-.dropdown-content a:hover {background-color:   #423631}
+.dropdown-content a:hover {background-color:  #42291e}
   
 .dropdown:hover .dropdown-content {
     display: block;
   }
-  
+  .dropdown-content a:hover{
+      background-color: #42291e;
+  }
   .dropdown:hover .dropbtn {
-    background-color:  #423631;
+    background-color:  #42291e;
   }
 .a{
     float: left;
@@ -342,10 +344,4 @@ footer a{
         text-align: center;
     }
 }
-.dropdown:hover{
-    background-color: #42291e;
-}
-.dropdown-content a:hover{
-    background-color: #42291e;
-}
-    
+
