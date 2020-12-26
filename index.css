@@ -7,7 +7,7 @@ body{
 header{
     margin: 0;
     height:70px;
-    background-color:#42291e;
+    background-color:#423631;
 }
 .h1{
     float: right;
@@ -17,8 +17,8 @@ header{
     margin:15px
 }
 .dropbtn {
-    background-color:  #42291e;
-    color: orange;
+    background-color:  #423631;
+    color: white;
     padding: 16px;
     font-size: 20px;
     border: none;
@@ -35,27 +35,27 @@ header{
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color:  #42291e;
+    background-color:  #423631;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
   
   .dropdown-content a {
-    color: orange;
+    color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
   }
   
-.dropdown-content a:hover {background-color:  #42291e}
+.dropdown-content a:hover {background-color:  #423631}
   
 .dropdown:hover .dropdown-content {
     display: block;
   }
   
   .dropdown:hover .dropbtn {
-    background-color:  #42291e;
+    background-color:  #423631;
   }
 .a{
     float: left;
@@ -90,7 +90,7 @@ article{
 article h1{
     margin-top: 100px;
     font-size: 40px;
-    color:  #42291e;
+    color:  #423631;
     font-weight:bolder;
     text-shadow: 2px 2px gray;
 }
@@ -179,7 +179,9 @@ article h1{
     padding: 20px;
     transition: ease-in-out all 1s;
 }
-
+.card_talk2 img{
+        border-radius: 50%;
+}
 .card_talk3{
     height: 100%;
 
@@ -195,8 +197,9 @@ article h1{
     transition: ease-in-out all 1s;
 }
 .card_talk3 img{
-    border-radius: 50%;
     width: 60px;
+    border-radius: 50%;
+    height: 70px;
 }
 .card_talk4{
     height: 100%;
@@ -213,6 +216,8 @@ article h1{
 }
 .card_talk4 img{
     width: 60px;
+    border-radius: 50%;
+    height: 70px;
 }
 .card_talk2 img{
     width:60px
@@ -284,8 +289,20 @@ footer a{
     }
     .h1{
         text-align: center;
+    }    footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
+@media only screen and (max-width: 600px) {
+    footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
 @media only screen and (max-width: 300px) {
 
@@ -304,6 +321,7 @@ footer a{
         display:flex;
         flex-direction: column;
     }
+
     .explor{
         width:100%;
         margin: 0;
@@ -323,4 +341,10 @@ footer a{
     .h1{
         text-align: center;
     }
+}
+.dropdown:hover{
+    background-color: #42291e;
+}
+.dropdown-content a:hover{
+    background-color: #42291e;
 }
