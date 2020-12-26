@@ -1,7 +1,7 @@
 body{
     margin: 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
+    background-color: rgb(206, 206, 206);
 }
 article h1{
     color: #42291e;
@@ -18,11 +18,7 @@ header{
     position: absolute;
     left: 20px;
 }
-h1{
-    text-shadow: 2px 2px gray;
-    font-size: 40px;
 
-}
 header a{
     margin-top: 20px;
     float: left;
@@ -39,19 +35,68 @@ header a{
 .head img{
     width: 200px;
 }
+.logo_name{
+    float: right;
+    color: orange;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+    margin: 15px;
+}
+.dropbtn {
+    background-color:  #42291e;
+    color: orange;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    margin: 10px;
+
+    cursor: pointer;
+  }
+.name{
+    font-size: 30px;
+    text-shadow: 1px 1px gray;
+}
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:  #42291e;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: orange;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+.dropdown-content a:hover {background-color:  #42291e}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color:  #42291e;
+  }
 nav{
     float: right;
-    width: 20%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-left:2px solid #42291e
+    width: 15%;
 }
-nav h1{
+nav h6{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
     text-align: center;
-    font-size: 40px;
     color: #42291e;
-    text-shadow: 2px 2px gray;
+    text-shadow: 1px 1px gray;
+    margin-top: 150px;
 
 }
 nav .cup{
@@ -67,14 +112,12 @@ nav .card{
     margin-top: 50px;
 }
 article{
-    direction: ltr;
-    display: flex;
+width: 85%;    display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 .botto{
-    width: 70%;
     padding: 50px;
     margin: 50px;
     display:flex;
@@ -91,14 +134,13 @@ article{
 }
 .card_talk1{
     height: 100%;
-    border: 2px solid #3f2a14;
     box-shadow: 0 5px 10px  #3f2a14;
     font-size: 15px;
     justify-content: space-between;
     margin: 30px;
     background-color: white;
     border-radius: 10px;
-    width: 20%;
+    width: 30%;
     color: black;
     padding: 20px;
     transition: ease-in-out all 1s;
@@ -109,35 +151,32 @@ article{
 }
 .card_talk2{
     height: 100%;
-    border: 2px solid #3f2a14;
     box-shadow: 0 5px 10px  #3f2a14;
     font-size: 15px;
     justify-content: space-between;
     margin: 30px;
     background-color: white;
     border-radius: 10px;
-    width: 20%;
+    width: 30%;
     color: black;
     padding: 20px;
     transition: ease-in-out all 1s;
 }
 .card_talk3{
     height: 100%;
-    border: 2px solid #3f2a14;
     box-shadow: 0 5px 10px  #3f2a14;
     font-size: 15px;
     justify-content: space-between;
     margin: 30px;
     background-color: white;
     border-radius: 10px;
-    width: 20%;
+    width: 30%;
     color: black;
     padding: 20px;
     transition: ease-in-out all 1s;
 }
 .card_talk4{
     height: 100%;
-    border: 2px solid #3f2a14;
     box-shadow: 0 5px 10px  #3f2a14;
     font-size: 15px;
     justify-content: space-between;
@@ -150,8 +189,14 @@ article{
     transition: ease-in-out all 1s;
 }
 .card_talk3 img{
-    border-radius: 50%;
+    height:70px;
     width: 60px;
+
+}
+.card_talk4 img{
+    height:70px;
+    width: 60px;
+
 }
 .card_talk2 img{
     border-radius: 50%;
@@ -160,7 +205,9 @@ article{
 .loctaion{
     text-align: center;
     padding-bottom: 200px;
-    border-bottom: 3px solid darkorange;
+}
+h2{
+    color: orange;
 }
 .loctaion h1{
     text-align: center;
@@ -171,11 +218,13 @@ iframe{
 }
 footer h1{
     text-align: center;
-    margin-top: 200px;
-    color:  #3f2a14;
+    margin-top: 100px;
+    color:  orange;
     font-family: 'Playball', cursive;
 }
-
+footer{
+    height: 250px;
+}
 footer a{
     padding: 20px;
     float: right;
@@ -191,4 +240,62 @@ footer .img{
 }
 .img1:hover{
     transform: scale(1.4,1.4);
+}
+@media only screen and (max-width: 600px) 
+{    
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+    header{
+        justify-content: center;
+    }
+    .header{
+        width: 100%;
+    }
+    .botto{
+        width: 100%;
+    }
+    nav{
+        float: none;
+        width: 100%;
+        justify-content: center;
+
+    }
+    article{
+        float: none;
+        width: 100%;
+        justify-content: center;
+    }
+
+}
+@media only screen and (max-width: 500px) {
+
+}
+
+@media only screen and (max-width: 900px) {
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    header{
+        width: 100%;
+    }
+    .header{
+        justify-content: center;
+    }
+    .card_talk1{
+        width: 100%;
+    }
+    .card_talk2{
+        width: 100%;
+    }
+    .card_talk3{
+        width: 100%;
+    }
+    .card_talk4{
+        width: 100%;
+    }
+
 }
