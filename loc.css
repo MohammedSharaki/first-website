@@ -183,7 +183,7 @@ width: 85%;    display: flex;
     margin: 30px;
     background-color: white;
     border-radius: 10px;
-    width: 40%;
+    width: 20%;
     color: black;
     padding: 20px;
     transition: ease-in-out all 1s;
@@ -219,7 +219,7 @@ iframe{
 footer h1{
     text-align: center;
     margin-top: 100px;
-    color:  orange;
+    color:  #42291e;
     font-family: 'Playball', cursive;
 }
 footer{
@@ -287,6 +287,22 @@ footer .img{
   .dropdown:hover .dropbtn {
     background-color:  #423631;
   }
+  @media only screen and (max-width: 1300px){
+          .card_talk1{
+        width: 100%;
+    }
+    .card_talk2{
+        width: 100%;
+    }
+    .card_talk3{
+        width: 100%;
+    }
+    .card_talk4{
+        width: 100%;
+    }
+
+  } 
+
 @media only screen and (max-width: 600px) 
 {    
     body{
@@ -331,18 +347,6 @@ footer .img{
     }
     .header{
         justify-content: center;
-    }
-    .card_talk1{
-        width: 100%;
-    }
-    .card_talk2{
-        width: 100%;
-    }
-    .card_talk3{
-        width: 100%;
-    }
-    .card_talk4{
-        width: 100%;
     }
 
 }
